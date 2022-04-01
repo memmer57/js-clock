@@ -1,0 +1,48 @@
+.clockbox,
+#clock {
+    width: 200px;
+    height: 200px;
+}
+
+.circle {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.mid-circle {
+    fill: #000;
+}
+
+.hour-marks {
+    fill: none;
+    stroke: #000;
+    stroke-width: 9;
+    stroke-miterlimit: 10;
+}
+
+.sizing-box {
+    fill: none;
+}
+
+#hour {
+    stroke: black;
+    stroke-width: 9;
+    transform-origin: center;
+}
+
+#minute {
+    fill: black;
+    stroke: black;
+    
+    stroke-width: 9;
+    transform-origin: center;
+}
+
+#second {
+    fill: red;
+    stroke: red;
+    stroke-width: 5;
+    transform-origin: center;
+}
